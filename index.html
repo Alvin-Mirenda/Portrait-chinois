@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Portrait Chinois - Alvin Mirenda</title>
+
+  <link rel="icon" type="image/png" href="img/icon.png">
+
+  <link rel="stylesheet" href="style css.css">
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+  <div class="con">
+
+    <header>
+      <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+
+      <div class="box">
+        <h1 class="titre"> PORTRAIT CHINOIS </h1>
+        <div id="particles-js"></div>
+      </div>
+
+
+      <a class="button button1" href="#popup01">En savoir plus...</a>
+
+      <a class="botton botton1" href="#popo01">Mention Légales</a>
+
+
+
+      <nav>
+        <ul>
+
+          <a id="totop" href="#top">
+            <li class="top"></li>
+          </a>
+
+          <a id="tostaff" href="#staff">
+            <li class="staff"></li>
+          </a>
+
+          <a id="totanjiro" href="#tanjiro">
+            <li class="tanjiro"></li>
+          </a>
+
+          <a id="tofilm" href="#film">
+            <li class="film"></li>
+          </a>
+
+          <a id="todestin" href="#ninho">
+            <li class="ninho"></li>
+          </a>
+
+          <a id="tocélébrité" href="#célébrité">
+            <li class="célébrité"></li>
+          </a>
+
+          <a id="toville" href="#ville">
+            <li class="ville"></li>
+          </a>
+
+          <a id="tojeu" href="#jeu">
+            <li class="jeu"></li>
+          </a>
+
+          <a id="toformulaire" href="#formulaire">
+            <li class="formulaire"></li>
+          </a>
+
+        </ul>
+      </nav>
+
+      <div id="popup01" class="overlay">
+        <div class="popup popup1">
+          <a class="close" href="#">&times;</a>
+          <div class="contenu1">
+            <p>
+              Bonjour, je m’appelle Alvin Mirenda, étudiant en première année du BUT MMI (Métiers du Multimédia et de
+              l’Internet) de Champs-sur-Marne.<br>
+              Vous décrouvrirez au travers de ce projet web, une manière originale et ludique de me découvrir sous la
+              forme d'un portrait chinois. Bonne lecture !
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div id="list-analogies"></div>
+
+    <div id="toi"></div>
+    <section>
+      <div class="container" id="formulaire">
+        <div class="list-analogies">
+
+          <!-- <h2>Si j’étais <span id="analogieSuggeree"></span>, je serais <span id="valeurAnalogieSuggeree"></span>.
+          </h2>
+          <p id="arganalogieSuggeree"></p> -->
+
+        </div>
+
+        <form class="form">
+          <label for="analogies">Si j'étais </label>
+
+          <input type="text" id="analogies" placeholder="Analogies" name="analogies" required>
+          <br>
+          <label for="valeurAnalogies">Je serais</label>
+
+          <input type="text" id="valeurAnalogies" placeholder="Valeur analogie" name="valeurAnalogies" required>
+          <br>
+          <label for="arg">Argument</label>
+          <br>
+          <textarea class="arg" type="text" placeholder="(exemple:blabla car blabla)" id="arganalogie" cols="40"
+            rows="5" spellcheck="true"></textarea>
+          <br>
+          <label for="img">Image</label>
+          <input type="url" id="imganalogie" name="imganalogie" placeholder="L'url d'une image" required>
+          <br>
+          <label for="courriel">Votre adresse mail :</label>
+          <br>
+          <input type="email" id="courriel" placeholder="Saisir votre E-mail" name="courriel" required>
+    
+          <div id="message"></div>
+          <input type="submit" id="envoi" value="Envoyer le message !">
+
+        </form>
+      </div>
+    </section>
+
+    <div class="overlay" id="popo01">
+      <div class="popo popo1">
+        <a class="close" href="#">&times;</a>
+        <div class="content">
+          <h1> Mentions Légales</h1>
+          <p>Informations Dévellopeur : Projet SAÉ 105 réalisé par Alvin Mirenda <br> 2 rue Albert Einstein, 77420
+            Champs-sur-Marne, France <br>
+            <br> Informations hébergeur : <br> Identité : Université Gustave Eiffel <br> Adresse : 2 rue Albert
+            Einstein, 77420 Champs-sur-Marne, France <br> Téléphone : 01 60 95 75 00 <br> Adresse mail :
+            webmaster@univ-eiffel.fr <br> Conformément
+            à l'article 15 du Règlement général sur la protection des données (RGPD) du 27 avril 2016, vous disposez
+            d'un droit d'accès aux informations vous concernant. Si vous trouvez que ces informations sont incorrectes,
+            l'article. <br> 16 du
+            RGPD vous permet de les modifier ou de les supprimer. Dans ce cas, merci de contacter le Directeur de la
+            Communication : com@univ-eiffel.fr. <br> Pour toute question relative à la collecte ou au traitement de vos
+            données personnelles par
+            le site web, vous pouvez contacter le respnsable de la protection des données du projet :
+            philippe.gambette@univ-eiffel.fr. <br> Les fichiers détenus par l'Université Gustave Eiffel et Philippe
+            Gambette qui comportent des données à caractère
+            personnel ne seront jamais transmis à des tiers et ne feront jamais l'objet d'une commercialisation. <br>
+            Lors de la création de votre propre analogie, vos informations seront envoyées dans une base de données.
+            Pour les supprimer veuillez
+            contacter philippe.gambette@univ-eiffel.fr. Les données seront supprimées durant l’été qui suivra de janvier
+            2022.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+
+  <script src="script.js"></script>
+  <script src="data.js"></script>
+
+
+
+  </div>
+</body>
+
+</html>
